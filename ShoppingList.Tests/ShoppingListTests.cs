@@ -9,11 +9,12 @@ public class ShoppingListTests
     [Test]
     public void ShoppingList_AddItem_ReturnsString()
     {
-        ShoppingList list = new ShoppingList(); // Arrange
+        ShoppingList shoppingList = new ShoppingList(); // Arrange
+        shoppingList.AddItem("item");
 
-        string actual = list.AddItem("item"); // Act
-        string expected = "item";
+        List<string> actual = shoppingList.itemList; // Act
+        List<string> expected = new List<string>(){"item"};
 
-        Assert.That(actual, Is.EqualTo(expected)); // Assert
+        CollectionAssert.AreEqual(expected, actual); // Assert
     }
 }

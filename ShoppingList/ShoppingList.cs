@@ -6,16 +6,15 @@ namespace ShoppingList;
 
 public class ShoppingList
 {
-  List<string> itemList;
+  public readonly List<string> itemList;
 
   public ShoppingList()
   {
     itemList = new List<string>();
   }
 
-  public string AddItem(string item)
+  public void AddItem(string item)
   {
-    return "item";
+    itemList.Add(item);
   }
-
 }
