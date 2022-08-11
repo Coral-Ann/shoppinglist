@@ -6,27 +6,34 @@ namespace ShoppingList.Tests;
 
 public class ShoppingListTests
 {
-    [Test]
+    [Test] 
     public void ShoppingList_AddItem_AddsItemToList()
     {
         ShoppingList shoppingList = new ShoppingList(); // Arrange
-        shoppingList.AddItem("item");
+        ShoppingItem mockShoppingItem = Substitute.For<ShoppingItem>("item", 3.99);
+        shoppingList.AddItem(mockShoppingItem);
 
-        List<string> actual = shoppingList.itemList; // Act
-        List<string> expected = new List<string>(){"item"};
+        List<ShoppingItem> actual = shoppingList.itemList;
+        List<ShoppingItem> expected = new List<ShoppingItem>() { mockShoppingItem }; // Act
 
-        CollectionAssert.AreEqual(expected, actual); // Assert
+        Assert.That(actual, Is.EqualTo(expected)); // Assert
     }
+
     [Test]
     public void ShoppingList_GetItem_ReturnsList()
     {
+        ShoppingItem mockShoppingItem1 = Substitute.For<ShoppingItem>("item1", 3.99);
+        ShoppingItem mockShoppingItem2 = Substitute.For<ShoppingItem>("item2", 10.99);
         ShoppingList shoppingList = new ShoppingList(); // Arrange
-        shoppingList.AddItem("item1");
-        shoppingList.AddItem("item2");
+        shoppingList.AddItem(mockShoppingItem1);
+        shoppingList.AddItem(mockShoppingItem2);
 
-        List<string> actual = shoppingList.GetItem(); // Act
-        List<string> expected = new List<string>(){"item1", "item2"};
+        List<ShoppingItem> actual = shoppingList.GetItems(); // Act
+        List<ShoppingItem> expected = new List<ShoppingItem>(){ mockShoppingItem1, mockShoppingItem2 };
 
         CollectionAssert.AreEqual(expected, actual); // Assert
     }
 }
+
+
+

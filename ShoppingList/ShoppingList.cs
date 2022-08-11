@@ -6,18 +6,18 @@ namespace ShoppingList;
 
 public class ShoppingList
 {
-  public readonly List<string> itemList;
+  public readonly List<ShoppingItem> itemList;
 
   public ShoppingList()
   {
-    itemList = new List<string>();
+    itemList = new List<ShoppingItem>();
   }
 
-  public void AddItem(string item)
+  public void AddItem(ShoppingItem item)
   {
     itemList.Add(item);
   }
-    public List<string> GetItem()
+    public List<ShoppingItem> GetItems()
   {
     return itemList;
   }
