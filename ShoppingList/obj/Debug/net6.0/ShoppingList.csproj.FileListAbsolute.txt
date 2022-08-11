@@ -1,0 +1,15 @@
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/bin/Debug/net6.0/ShoppingList
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/bin/Debug/net6.0/ShoppingList.deps.json
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/bin/Debug/net6.0/ShoppingList.runtimeconfig.json
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/bin/Debug/net6.0/ShoppingList.dll
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/bin/Debug/net6.0/ShoppingList.pdb
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/obj/Debug/net6.0/ShoppingList.csproj.AssemblyReference.cache
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/obj/Debug/net6.0/ShoppingList.GeneratedMSBuildEditorConfig.editorconfig
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/obj/Debug/net6.0/ShoppingList.AssemblyInfoInputs.cache
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/obj/Debug/net6.0/ShoppingList.AssemblyInfo.cs
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/obj/Debug/net6.0/ShoppingList.csproj.CoreCompileInputs.cache
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/obj/Debug/net6.0/ShoppingList.dll
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/obj/Debug/net6.0/refint/ShoppingList.dll
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/obj/Debug/net6.0/ShoppingList.pdb
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/obj/Debug/net6.0/ShoppingList.genruntimeconfig.cache
+/Users/coral-ann/Dropbox/Projects/LBStraining/week01/shoppinglist/ShoppingList/obj/Debug/net6.0/ref/ShoppingList.dll
