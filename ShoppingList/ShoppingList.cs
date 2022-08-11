@@ -17,4 +17,8 @@ public class ShoppingList
   {
     itemList.Add(item);
   }
+    public List<string> GetItem()
+  {
+    return itemList;
+  }
 }
