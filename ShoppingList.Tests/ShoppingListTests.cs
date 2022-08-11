@@ -4,16 +4,16 @@ using ShoppingList;
 
 namespace ShoppingList.Tests;
 
-public class Tests
+public class ShoppingListTests
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
-
     [Test]
-    public void Test1()
+    public void ShoppingList_AddItem_ReturnsString()
     {
-        Assert.Pass();
+        ShoppingList list = new ShoppingList(); // Arrange
+
+        string actual = list.AddItem("item"); // Act
+        string expected = "item";
+
+        Assert.That(actual, Is.EqualTo(expected)); // Assert
     }
 }
